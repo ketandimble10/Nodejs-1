@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketandimble10/Nodejs-1.git"
+  },
+  "author": "ketan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ketandimble10/Nodejs-1/issues"
+  },
+  "homepage": "https://github.com/ketandimble10/Nodejs-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "pm2-windows-service": "^0.2.1",
+    "promise": "^8.1.0",
+    "yargs": "^17.5.1"
+  }
+}
